@@ -1,11 +1,13 @@
 # MoveoNotes++ Android Application 📝
 
 <br />
+<p align="center">
     <a href="https://github.com/noalecohen1/MoveoNotes">
-      <!--- <img src="images/logo.svg" alt="Logo" width="400" heigt="400"> --->
+      <img src="images/logo.png" alt="Logo" width="400" heigt="400">
   </a>
- <p>
-A Location based Notes Application.
+</p>
+<p align="center">
+	A Location based Notes Application.
 </p>
 
 ## App Functionality
