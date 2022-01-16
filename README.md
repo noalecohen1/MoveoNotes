@@ -30,7 +30,7 @@ https://github.com/noalecohen1/MoveoNotes.git
 
 ## Screenshots
 
-Loading Page            | Login Page            |  Sign-Up Page
+Loading Page            | Login Page            |  Register Page
 :-------------------------:|:-------------------------:|:-------------------------:
 <img src="images/splash.png" alt="register" width="300">  | <img src="images/login.png" alt="register" width="300">  |  <img src="images/register.png" alt="register" width="300">
 
