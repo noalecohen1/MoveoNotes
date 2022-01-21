@@ -170,6 +170,13 @@ public class AddEditNoteFragment extends Fragment {
             ActivityCompat.requestPermissions(getActivity()
                     , new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 42);
         }
+
+//        try {
+//            Thread.sleep(1000);
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
+
         if (ActivityCompat.checkSelfPermission(getContext(), Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
             fusedLocationProviderClient.getCurrentLocation(LocationRequest.PRIORITY_BALANCED_POWER_ACCURACY,null).addOnCompleteListener(new OnCompleteListener<Location>() {
                 @RequiresApi(api = Build.VERSION_CODES.N)
